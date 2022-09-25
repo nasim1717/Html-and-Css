@@ -131,3 +131,7 @@
  	 <br />
    	 <br />
     	<textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Comment"></textarea>
+
+16.marquee:-    
+	<marquee behavior="" direction="left"> Hello World </marquee>
+
