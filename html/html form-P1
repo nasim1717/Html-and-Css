@@ -1,0 +1,57 @@
+ Sign Up From:-
+ <body>
+    <h1 style="text-align: center">Sign Up Form</h1>
+    <hr />
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="User Name" required />
+    <br /><br />
+    <label for="gmail">Gmail:</label>
+    <input type="gmail" id="gmail" name="gmail" placeholder="gmail" required />
+    <br />
+    <br />
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="pass" placeholder="password" required />
+    <br /><br />
+    <label for="phone">Phone:</label> <br />
+    <select name="code" id="">
+      <option value="+088">+088</option>
+      <option value="+999">+999</option>
+      <option value="+888">+000</option>
+    </select>
+    <input type="number" name="code" id="phone" placeholder="123456789" required /><br /><br />
+    <label for="country">Coose Your country</label>
+    <select name="country" id="country">
+      <option value="Bangladesh">Bangladesh</option>
+      <option value="Arab">Arab</option>
+      <option value="Dubai">Dubai</option>
+      <option value="Singapur">Singapur</option>
+    </select>
+    <br /><br />
+    Gender:
+    <input type="radio" id="gender1" name="gender" />
+    <label for="gender1">Male</label>
+    <input type="radio" id="gender2" name="gender" />
+    <label for="gender2">Female</label>
+    <br /><br />
+    <label for="date">Date of birth:</label>
+    <input type="date" id="date" name="date" required />
+    <br /><br />
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required />
+    <br /><br />
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" />
+    <br /><br />
+    <label for="file">Choose Your File:</label>
+    <input type="file" id="file" name="file" required />
+    <br />
+    <br />
+    <input type="checkbox" id="vehicle1" name="chek" />
+    <label for="vehicle1">I have Bike</label>
+    <input type="checkbox" id="vehicle2" name="chek" />
+    <label for="vehicle2">I Have Bycle</label> <br />
+    <textarea name="comment" id="" cols="30" rows="10">Comment here</textarea>
+    <br /><br />
+    <input type="submit" value="send" />
+    <input type="reset" value="reset" />
+  </body> 
