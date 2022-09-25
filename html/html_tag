@@ -1,0 +1,133 @@
+1.  Style-Color-Center-background_color-font_size :  
+	<h2 style="color: red ; text-align: center; background-color: aqua; font-size: 50px;">Hello world</h2>
+2. text-bold,itali,em,strong useing:-Text formating 1
+	<p><b>Hello World</b></p> <br>
+    	<p><strong>Hello World</strong></p>
+   	 <p><i>Hello world</i></p>
+    	<p><em>Hello world</em></p>
+
+3.  text- small,underline,dele,markup,ins :- Text formating 2
+	<p>Hello World</p> <br>
+    	<p><small>Hello World</small></p><br>
+    	<p><u>Hello World</u></p> <br>
+    	<p><ins>Hello World</ins></p> <br>
+    	<p><del>Hello World</del></p>
+    	<p><mark>Hello World</mark></p>
+3. Subscrip,Suparscript tag use :- sub,sup
+ 	<p>Hello <sub>2</sub> World</p> <br>
+    	<p>Hello <sup> 2</sup> Wrold <sup> 2</sup></p>
+4. Loreom,quation :- blockquote,q
+	  <blockquote>
+     	 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae praesentium delectus
+    	</blockquote>
+   	 Nasim Sayes,<q>
+   	Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum hic quaerat quo porro
+    	</q>
+
+5. Aderess,abbreviation:-
+	 <address>
+      	Nasim <br />
+      	Dhaka 1216 <abbr title="Bangladesh">BD</abbr>
+  	  </address>
+ 6. Text direction change:-
+	 <bdo dir="rtl">I Love Bangladesh</bdo>
+
+7. Hiper reference,target use:-
+	 <a href="https://www.google.com/" target="_blank">Google</a>
+
+8. image show:- file_src,src
+	 <img src="27513_n.jpg" /> <br />
+   	 <img src="image/27513_n.jpg" />
+9. Table create:-
+  	  <h1>Student Table</h1>
+    	<table border="1px">
+     	 <tr>
+        	<th>Name</th>
+       	 <th>Addres</th>
+        	<th>ID</th>
+     	 </tr>
+     	 <tr>
+        	<td>Nasim</td>
+        	<td>Dhaka</td>
+       	 <td>030</td>
+     	 </tr>
+      	<tr>
+       	 <td>Efian</td>
+        	<td>Mehepur</td>
+        	<td>80</td>
+     	 </tr>
+   	 </table>
+
+10. List:- order_list,unorder_list
+	  <ol type="A">
+      	<li>Nasim</li>
+     	 <li>Efian</li>
+      	<li>Aziz</li>
+      	<li>Emon</li>
+   	 </ol>
+
+    	<ul type="square">
+      	<li>Nasim</li>
+      	<li>Efian</li>
+     	 <li>Aziz</li>
+      	<li>Emon</li>
+    	</ul> 
+
+11. ifream:-
+	  <iframe src="http://localhost/ebh/project/index.php"></iframe>
+
+12. Video:-
+ 	<video width="320" height="145" controls>
+      	<source src="video/Gunduz Bey Death Sad Music - Osman Ghazi Ringtone.mp4" type="video/mp4" />
+    	</video>
+ 
+13. Audio:-
+	  <audio controls>
+      	<source
+        	src="audio/Ertugrul Theme Song MP3 Free Download - Diriliş Ertuğrul.mp3"
+       	 type="audio/mp3"
+      	/>
+    	</audio>
+
+14. From:-fieldset,egend
+	<form action="#" method="">
+      	<fieldset>
+       	 <legend>Contuct Us</legend>
+        	First name:
+        	<input type="text" placeholder="frist name" /> <br />
+        	<br />
+        	Last name:
+        	<input type=" text" placeholder="last name" /> <br />
+        	<br />
+        	Gmail:
+        	<input type="gmail" placeholder="gmail" /> <br />
+        	<br />
+        	Gender:
+        	<input type="radio" name="gender" /> male <input type="radio" name="gender" /> female
+        	<input type="radio" name="gender" /> other <br />
+        	<br />
+        	<input type="submit" value="send" />
+     	 </fieldset>
+   	 </form> 
+
+15. Select:-
+	    <h1>Choose Your Country</h1>
+   	 <select>
+     	 <option value="Bangladesh">Bangladesh</option>
+      	<option value="India">India</option>
+      	<option value="Pakisthan">Pakisthan</option>
+      	<option value="Arab">Arab</option>
+      	<option value="Dubai">Dubai</option>
+   	 </select> 
+	MULTIPLE  COOSE:
+	  <h1>Choose Your Country</h1>
+    	<select multiple size="1">
+     	 <option value="Bangladesh">Bangladesh</option>
+     	 <option value="India">India</option>
+      	<option value="Pakisthan">Pakisthan</option>
+      	<option value="Arab">Arab</option>
+      	<option value="Dubai">Dubai</option>
+   	</select>
+ 	 <br />
+   	 <br />
+    	<textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Comment"></textarea>
