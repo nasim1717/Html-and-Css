@@ -2,15 +2,15 @@
 	<h2 style="color: red ; text-align: center; background-color: aqua; font-size: 50px;">Hello world</h2>
 2. text-bold,itali,em,strong useing:-Text formating 1
 	<p><b>Hello World</b></p> <br>
-    	<p><strong>Hello World</strong></p>
+    	<p><strong>Hello World</strong></p> ///strong tag diye kono lekha ke bold kora jai, jodi kono lekha imperotant hoy tokhon strong tag use kora hoy. strong tag SEO friendly
    	 <p><i>Hello world</i></p>
-    	<p><em>Hello world</em></p>
+    	<p><em>Hello world</em></p> ///bem tag diyeo lekha itali kora jai
 
 3.  text- small,underline,dele,markup,ins :- Text formating 2
 	<p>Hello World</p> <br>
     	<p><small>Hello World</small></p><br>
     	<p><u>Hello World</u></p> <br>
-    	<p><ins>Hello World</ins></p> <br>
+    	<p><ins>Hello World</ins></p> <br> /// ins diyo under line kora jai
     	<p><del>Hello World</del></p>
     	<p><mark>Hello World</mark></p>
 3. Subscrip,Suparscript tag use :- sub,sup
